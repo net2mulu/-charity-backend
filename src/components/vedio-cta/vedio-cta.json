@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_vedio_cta_vedio_ctas",
+  "info": {
+    "displayName": "Vedio Cta",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "small_desc": {
+      "type": "string"
+    },
+    "long_desc": {
+      "type": "text"
+    }
+  }
+}

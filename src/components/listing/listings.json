@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_listing_listings",
+  "info": {
+    "displayName": "Listings",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

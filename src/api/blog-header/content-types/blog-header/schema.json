@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_headers",
+  "info": {
+    "singularName": "blog-header",
+    "pluralName": "blog-headers",
+    "displayName": "Blog Header"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BlogHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-header.page-header"
+    }
+  }
+}

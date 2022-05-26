@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_services",
+  "info": {
+    "singularName": "home-service",
+    "pluralName": "home-services",
+    "displayName": "Home Services"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "extraClassName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

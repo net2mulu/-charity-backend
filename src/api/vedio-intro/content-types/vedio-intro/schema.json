@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "vedio_intros",
+  "info": {
+    "singularName": "vedio-intro",
+    "pluralName": "vedio-intros",
+    "displayName": "Vedio Intro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

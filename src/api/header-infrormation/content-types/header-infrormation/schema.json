@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_infrormations",
+  "info": {
+    "singularName": "header-infrormation",
+    "pluralName": "header-infrormations",
+    "displayName": "Header infrormation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topmessage": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "json"
+    }
+  }
+}

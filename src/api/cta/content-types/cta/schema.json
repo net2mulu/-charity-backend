@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "ctas",
+  "info": {
+    "singularName": "cta",
+    "pluralName": "ctas",
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "small_desc": {
+      "type": "string"
+    },
+    "long_desc": {
+      "type": "text"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

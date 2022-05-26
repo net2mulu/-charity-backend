@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_header_page_headers",
+  "info": {
+    "displayName": "Page-Header",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

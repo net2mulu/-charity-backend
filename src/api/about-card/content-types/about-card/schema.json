@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_cards",
+  "info": {
+    "singularName": "about-card",
+    "pluralName": "about-cards",
+    "displayName": "About-Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shortIntro": {
+      "type": "string"
+    },
+    "longIntro": {
+      "type": "text"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Listings": {
+      "displayName": "Listings",
+      "type": "component",
+      "repeatable": true,
+      "component": "listing.listings"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
